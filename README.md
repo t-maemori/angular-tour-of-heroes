@@ -1,27 +1,30 @@
-# AngularTourOfHeroes
+## ◆前提
+以下のチュートリアルを参考に、若干のアレンジを加えたものを作ることを目的とする。
+> https://angular.jp/tutorial
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.3.
+## ◆導入環境
+①「Node.js」をインストールしていること。
 
-## Development server
+②以下のコマンドを実行し、「node_modules」データをインストールしておく。
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+> npm install
 
-## Code scaffolding
+③以下のコマンドを実行し、「Angular CLI」をインストールしておく。
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+> npm install -g @angular/cli
 
-## Build
+## ◆アプリ概要
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+人材派遣会社として、ヒーローたちを管理するためのアプリケーションを作成する予定。
 
-## Running unit tests
+現状はAngularプロジェクトの初期作成段階となっている。
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## ◆起動 コマンド
 
-## Running end-to-end tests
+以下のコマンドで実行することができる。
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+> ng serve
 
-## Further help
+その後、以下のURLをブラウザで開けばゲームすることができる。
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+> http://localhost:4200/
